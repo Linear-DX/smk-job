@@ -82,6 +82,8 @@ export default function Navbar() {
             Login
           </Button>
           <Button
+            as="a"
+            href="#"
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
             fontWeight={600}
@@ -89,12 +91,12 @@ export default function Navbar() {
             bg={'teal.400'}
             _hover={{
               bg: 'teal.300',
-            }}>
-            <a href="#">Daftar</a> 
+            }}
+          >
+            Daftar
           </Button>
         </Stack>
       </Flex>
-
       <Collapse in={isOpen} animateOpacity>
         <MobileNav />
       </Collapse>
