@@ -1,7 +1,7 @@
 import Navbar from './components/navbar.tsx';
 import Carousel from './components/carousel.tsx';
 import Content from './components/content.tsx';
-import './App.css';
+import './styles/carousel.scss';
 
 function App() {
   return (

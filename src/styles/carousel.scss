@@ -1,0 +1,15 @@
+.carousel-image{
+    @media (min-width: 300px){
+        background-size: 300px;
+        position: relative;
+    }
+}
+
+.carousel-text{
+    backdrop-filter: blur(4.3px);
+    background-color: tomato;
+    @media(min-width: 300px){
+        position: relative;
+        left: 50px;
+    }
+}

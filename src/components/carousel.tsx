@@ -10,9 +10,9 @@ import {
 } from '@chakra-ui/react';
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 import Slider from 'react-slick';
-import infoBeasiswa from '../assets/pictures/carousel/woman-book.jpg';
-import tipsKarir from '../assets/pictures/carousel/product-job.jpg';
-import lowonganKerja from '../assets/pictures/carousel/post-night.jpg';
+import infoBeasiswa from '../assets/pictures/carousel/young-female5760.jpg';
+import tipsKarir from '../assets/pictures/carousel/smiley-woman.jpg';
+import lowonganKerja from '../assets/pictures/carousel/group.jpg';
 
 // Settings for the slider
 const settings = {
@@ -43,7 +43,7 @@ export default function Carousel() {
     {
       title: 'Lowongan Kerja',
       text:
-        "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
+        "Beragam pilihan lowongan pekerjaan tersedia untuk kamu, dapatkan kesempatan karir sesuai dengan jurusan kamu.",
       image:
         // 'https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
         lowonganKerja
@@ -51,7 +51,7 @@ export default function Carousel() {
     {
       title: 'Tips Karir',
       text:
-        "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
+        "Tips karir memiliki banyak manfaat untuk kamu yang baru saja lulus sekolah nih. Kamu dapat memperbanyak pengetahuan tentang karir yang ingin kamu tekuni.",
       image:
         tipsKarir
       // 'https://images.unsplash.com/photo-1438183972690-6d4658e3290e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2274&q=80',
@@ -59,7 +59,7 @@ export default function Carousel() {
     {
       title: 'Info Beasiswa',
       text:
-        "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
+        "Kamu dapat melihat berbagai informasi mengenai beasiswa untuk berbagai jenjang pendidikan. Ada sangat banyak beasiswa untuk kamu pilih sesuai dengan bidang yang kamu sukai.",
       image:
         infoBeasiswa
       // 'https://images.unsplash.com/photo-1507237998874-b4d52d1dd655?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
@@ -113,25 +113,33 @@ export default function Carousel() {
         {cards.map((card, index) => (
           <Box
             key={index}
-            height={'2xl'}
+            className='carousel-image'
+            height={'48em'}
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
             backgroundImage={`url(${card.image})`}>
+
             {/* This is the block you need to change, to customize the caption */}
             <Container size="container.lg" height="500px" position="relative">
               <Stack
-                spacing={6}
-                w={'full'}
-                maxW={'lg'}
-                position="absolute"
+                className='carousel-text'
+                order={'1'}
+                spacing={4}
+                maxW={['18em', '26em']}
+                position="relative"
                 top="50%"
-                transform="translate(0, -50%)">
-                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+                left={'-268px'}
+                transform="translateY(-50%)"
+                border={'2px'}
+                borderRadius={'8'}
+                borderColor={'black'}
+                p={4}>
+                <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} color={'black'}>
                   {card.title}
                 </Heading>
-                <Text fontSize={{ base: 'md', lg: 'lg' }} color="GrayText">
+                <Text fontSize={{ base: 'md', lg: 'lg' }} color={'black'}>
                   {card.text}
                 </Text>
               </Stack>
