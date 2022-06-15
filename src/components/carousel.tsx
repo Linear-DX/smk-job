@@ -114,23 +114,23 @@ export default function Carousel() {
           <Box
             key={index}
             className='carousel-image'
-            height={'48em'}
+            height={['26em','48em']}
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
-            backgroundImage={`url(${card.image})`}>
+            backgroundImage={['none',`url(${card.image})`]}>
 
             {/* This is the block you need to change, to customize the caption */}
-            <Container size="container.lg" height="500px" position="relative">
+            <Container size="container.lg" height={['420px','500px']} position="relative">
               <Stack
                 className='carousel-text'
                 order={'1'}
                 spacing={4}
-                maxW={['18em', '26em']}
-                position="relative"
+                maxW={['18em','26em']}
+                position='relative'
                 top="50%"
-                left={'-268px'}
+                left={['9%','-55.53%']}
                 transform="translateY(-50%)"
                 border={'2px'}
                 borderRadius={'8'}
