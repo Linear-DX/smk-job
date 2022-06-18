@@ -5,7 +5,7 @@ import CardsLink from "./cardslink.tsx";
 
 export default function Intro() {
   return (
-    <Box w="full" bg="blue.700" px="180px" py="50px" mb="800px">
+    <Box w="full" bg="blue.700" px="180px" py="50px" mb="100px">
       <Flex justifyContent="space-betweet" alignItems="center" pb="50px">
         <Heading fontSize={55} letterSpacing="3px" color="whiteAlpha.900">
           Lulusan SMK <br /> takut masuk dunia kerja?
