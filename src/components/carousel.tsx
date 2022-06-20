@@ -69,7 +69,7 @@ export default function Carousel() {
   return (
     <Box
       position={'relative'}
-      height={'500px'}
+      height={['400px','564.5px']}
       width={'full'}
       overflow={'hidden'}>
       {/* CSS files for react-slick */}
@@ -89,6 +89,7 @@ export default function Carousel() {
         aria-label="left-arrow"
         variant="ghost"
         position="absolute"
+        color={['black','white']}
         left={side}
         top={top}
         transform={'translate(0%, -50%)'}
@@ -101,6 +102,7 @@ export default function Carousel() {
         aria-label="right-arrow"
         variant="ghost"
         position="absolute"
+        color={['black','white']}
         right={side}
         top={top}
         transform={'translate(0%, -50%)'}
@@ -131,7 +133,7 @@ export default function Carousel() {
                 position='relative'
                 top="50%"
                 left={['9%','-55.53%']}
-                transform="translateY(-50%)"
+                transform={["translateY(-60%)","translateY(-40%)"]}
                 border={'2px'}
                 borderRadius={'8'}
                 borderColor={'black'}
