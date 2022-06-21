@@ -60,7 +60,7 @@ export default function Navbar() {
             color={useColorModeValue('gray.800', 'white')}
             fontWeight={'bold'}
             fontSize={18}>
-            <a href="#">SMKJOB</a>
+            <a href="/">SMKJOB</a>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -78,12 +78,12 @@ export default function Navbar() {
             fontSize={'sm'}
             fontWeight={400}
             variant={'link'}
-            href={'#'}>
+            href={'/login'}>
             Login
           </Button>
           <Button
             as="a"
-            href="#"
+            href={'/daftar'}
             display={{ base: 'none', md: 'inline-flex' }}
             fontSize={'sm'}
             fontWeight={600}
@@ -277,19 +277,19 @@ const NAV_ITEMS: Array<NavItem> = [
   // End of Cara Membuat Submenu
   {
     label: 'Lowongan Kerja',
-    href: '#',
+    href: '/lowongan-kerja',
   },
   {
     label: 'Perusahaan',
-    href: '#',
+    href: '/perusahaan',
   },
   {
     label: 'Tips Karir',
-    href: '#',
+    href: '/tips-karir',
   },
   {
     label: 'Beasiswa',
-    href: '#',
+    href: '/beasiswa',
   },
 ];
 

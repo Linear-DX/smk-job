@@ -1,16 +1,33 @@
-import Navbar from './components/navbar.tsx';
-import Carousel from './components/carousel.tsx';
-import Content from './components/content.tsx';
-import Search from './components/search.tsx';
 import './styles/carousel.scss';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import {
+  Home,
+  LowonganKerja,
+  Perusahaan,
+  TipsKarir,
+  Beasiswa,
+  Login,
+  Daftar
+} from './pages/index';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Carousel />
-      <Search />
-      <Content />
+      <Router>
+          <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/lowongan-kerja' element={<LowonganKerja/>} />
+            <Route path='/perusahaan' element={<Perusahaan/>} />
+            <Route path='/tips-karir' element={<TipsKarir/>} />
+            <Route path='/beasiswa' element={<Beasiswa/>} />
+            <Route path='/login' element={<Login/>} />
+            <Route path='/daftar' element={<Daftar/>} />
+          </Routes>
+      </Router>
     </div>
   );
 }
