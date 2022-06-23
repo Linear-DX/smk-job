@@ -1,5 +1,6 @@
 import React from "react";
 
+// @ts-ignore
 import { VisibilityContext } from "react-horizontal-scrolling-menu";
 
 export default function Arrow({
