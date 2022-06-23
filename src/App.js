@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar.tsx";
-import Carousel from "./components/carousel.tsx";
-import Content from "./components/content.tsx";
+// import Carousel from "./components/carousel.tsx";
+// import Content from "./components/content.tsx";
 import "./App.css";
 import Landing from "./components/tipsSections/landing.tsx";
 

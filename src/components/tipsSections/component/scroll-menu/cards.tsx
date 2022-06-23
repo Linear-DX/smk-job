@@ -1,14 +1,8 @@
 import React from "react";
-
-import { VisibilityContext } from "react-horizontal-scrolling-menu";
 // import CardsLink from "./landing/sections/cardslink";
 import { LinkBox, LinkOverlay, Box, Text, Heading, Img } from "@chakra-ui/react";
 
-export function Card({ itemId }: { title: string; itemId: string }) {
-  const visibility = React.useContext(VisibilityContext);
-
-  const visible = visibility.isItemVisible(itemId);
-
+export function Card() {
   return (
     <div
       role="button"

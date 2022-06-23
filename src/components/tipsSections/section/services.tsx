@@ -1,8 +1,5 @@
-import { Box, Flex, Text, Heading, HStack } from "@chakra-ui/react";
+import { Box, Flex, Text, Heading } from "@chakra-ui/react";
 import React from "react";
-// import { ServiceCard } from "../../../components/serviceCard";
-// import { RiComputerLine } from "react-icons/ri";
-// import { BsPencilSquare } from "react-icons/bs";
 
 export const Services = () => {
   return (
@@ -17,18 +14,6 @@ export const Services = () => {
           recusandae nesciunt nam quisquam aspernatur natus.
         </Text>
       </Flex>
-      {/* <HStack w="full" spacing="60px">
-        <ServiceCard
-          icon={RiComputerLine}
-          heading="Web Design"
-          description="Sint sunt eiusmod ipsum mollit exercitation occaecat commodo incididunt nulla pariatur aliqua ut reprehenderit."
-        />
-        <ServiceCard
-          icon={BsPencilSquare}
-          heading="Content Writing"
-          description="Voluptate fugiat nisi veniam nulla enim dolore ex magna pariatur duis anim amet eiusmod."
-        />
-      </HStack> */}
     </Box>
   );
 };

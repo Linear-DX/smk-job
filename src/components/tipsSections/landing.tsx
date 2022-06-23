@@ -2,9 +2,9 @@ import { Box } from "@chakra-ui/react";
 import React from "react";
 
 // @ts-ignore
-import Intro from "./section/intro.tsx";
+import Intro from "./section/HeroLanding.tsx";
 // @ts-ignore
-import Arrow from "./scroll-menu/index.tsx";
+import Arrow from "./section/ScrollMenu.tsx";
 // @ts-ignore
 import { Services } from "./section/services.tsx";
 // import { Services } from "./sections/services";
