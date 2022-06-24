@@ -1,6 +1,12 @@
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+
 const LowonganKerja = () => {
-    return(
-        <div>Ini adalah halaman Lowongan Kerja</div>
+    return (
+        <div>
+            <Navbar />
+            <Footer />
+        </div>
     )
 }
 

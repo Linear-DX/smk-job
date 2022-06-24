@@ -41,7 +41,7 @@ export default function Search() {
             <Center>
                 <InputGroup
                     mt={8}
-                    width={'450px'}>
+                    width={['250px','450px']}>
                     <InputLeftElement
                         pointerEvents='none'
                         justifyItems={'center'}

@@ -1,4 +1,3 @@
-import './styles/carousel.scss';
 import {
   BrowserRouter as Router,
   Routes,
