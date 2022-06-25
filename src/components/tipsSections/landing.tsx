@@ -1,12 +1,12 @@
 import { Box } from "@chakra-ui/react";
-import Navbar from "../components/navbar";
-// import React from "react";
+import React from "react";
+
 // @ts-ignore
-import Intro from "../components/tipsSections/section/HeroLanding.tsx";
+import Intro from "./section/HeroLanding.tsx";
 // @ts-ignore
-import Arrow from "../components/tipsSections/section/ScrollMenu";
+import Arrow from "./section/ScrollMenu.tsx";
 // @ts-ignore
-import { Services } from "../components/tipsSections/section/services";
+import { Services } from "./section/services.tsx";
 // import { Services } from "./sections/services";
 // import { Commitments } from "./sections/commitments";
 // import { HowWeWork } from "./sections/how-we-work";
@@ -15,7 +15,6 @@ import { Services } from "../components/tipsSections/section/services";
 export default function Landing() {
   return (
     <Box>
-      <Navbar />
       <Intro />
       <Services />
       <Arrow />
