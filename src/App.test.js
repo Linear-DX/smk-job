@@ -1,5 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react';
-import userEvent from '@testing-library/user-event'
+import { fireEvent, render, screen } from '@testing-library/react';
 import { ChakraProvider } from '@chakra-ui/react';
 import Home from './pages/home.tsx';
 import Search from './components/search.tsx';

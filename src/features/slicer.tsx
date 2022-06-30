@@ -1,14 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
 import dataLowonganKerja from '../data/dataLowonganKerja';
 
-interface dataLowonganKerja {
+interface dataLoker {
     job: String,
     desc: String,
     loc: String
 }
 
 interface LokerState {
-    jobs: dataLowonganKerja[]
+    jobs: dataLoker[]
 }
 
 const initialState: LokerState = {

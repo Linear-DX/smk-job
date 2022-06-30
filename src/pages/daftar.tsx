@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Heading, VStack, Text, HStack } from '@chakra-ui/layout'
-import { Checkbox,InputGroup, InputLeftAddon, FormControl, FormLabel, Input, Button } from '@chakra-ui/react'
+import { InputGroup, InputLeftAddon, FormControl, FormLabel, Input, Button } from '@chakra-ui/react'
 
 
 

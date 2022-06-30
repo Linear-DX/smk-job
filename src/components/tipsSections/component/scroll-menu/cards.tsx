@@ -1,4 +1,4 @@
-import { Box, Heading, HStack, Input, SimpleGrid } from "@chakra-ui/react";
+import { Heading, Input, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 
 import { MethodCard } from "./MethodCard";

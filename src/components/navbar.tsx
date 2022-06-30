@@ -22,8 +22,6 @@ import {
   ChevronRightIcon,
 } from '@chakra-ui/icons';
 
-import { useNavigate } from 'react-router-dom';
-
 export default function Navbar() {
   // let navigate = useNavigate();
   const { isOpen, onToggle } = useDisclosure();

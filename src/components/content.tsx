@@ -6,11 +6,8 @@ import {
     Stack,
     Heading,
     Text,
-    Container,
     Image,
     Center,
-    Avatar,
-    Img,
     Button,
 } from '@chakra-ui/react';
 // Here we have used react-icons package for the icons
