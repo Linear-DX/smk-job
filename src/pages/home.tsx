@@ -2,6 +2,7 @@ import Navbar from "../components/navbar";
 import Carousel from "../components/carousel";
 import Search from "../components/search";
 import Footer from "../components/footer";
+import Content from "../components/content";
 
 const Home = () => {
     return(
@@ -9,6 +10,7 @@ const Home = () => {
            <Navbar />
            <Carousel />
            <Search />
+           <Content />
            <Footer />
         </div>
     )
