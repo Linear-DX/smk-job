@@ -1,12 +1,13 @@
 import { Box, Heading, Img, LinkBox, LinkOverlay, Text } from "@chakra-ui/react";
 import React from "react";
-// import isi from "./isi";
 
 export const MethodCard = ({
+  id,
   imagePath,
   heading,
   description,
 }: {
+  id: any;
   imagePath: string;
   heading: string;
   description: string;
@@ -36,9 +37,9 @@ export const MethodCard = ({
         <LinkOverlay href="">{heading}</LinkOverlay>
       </Heading>
       <Text mb="3">
-        {description.length > 80 ? `${description.substring(0, 80)} ....` : description}
+        {description.length > 90 ? `${description.substring(0, 90)} ....` : description}
       </Text>
-      <Box as="a" color="teal.400" href="" fontWeight="bold" ml="16em" position="absolute">
+      <Box as="a" color="teal.400" href="" fontWeight="bold" ml="16em">
         Read More
       </Box>
     </LinkBox>
