@@ -1,27 +1,17 @@
+import { BeasiswaContextProvider } from "../components/BeasiswaContext";
+import Scholarship from "../components/Beasiswa";
 import Navbar from "../components/navbar";
-import {
-    Stack,
-} from "@chakra-ui/react";
-import { useAppSelector } from "../app/store";
+import Footer from "../components/footer";
 
-const Beasiswa = () => {
-
-    const { jobs } = useAppSelector((state) => state.job);
-
-    return (
-        <div>
-            <Navbar />
-            <Stack
-                spacing={4}
-                backgroundColor={'darkBlue.400'}
-                height={'500px'}
-            >
-                {
-                    jobs?.map((job) => <p>{job.job}</p>
-                )}
-            </Stack>
-        </div>
-    )
+const Beasiswa  = () => {
+  return (
+    
+    <BeasiswaContextProvider>
+      <Navbar />  
+      <Scholarship />
+      <Footer />
+    </BeasiswaContextProvider>
+  );
 }
 
 export default Beasiswa;
