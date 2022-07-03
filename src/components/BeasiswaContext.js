@@ -5,7 +5,7 @@ export const BeasiswaContext = createContext();
 
 export const BeasiswaContextProvider = (props) => {
   const [data, setData] = useState();
-  const apiKey = "d3a68d3a93a54948a016a1553bc4d20c";
+  const apiKey = "";
 
   useEffect(() => {
     axios
