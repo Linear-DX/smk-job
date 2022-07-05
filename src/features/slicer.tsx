@@ -2,9 +2,11 @@ import { createSlice } from "@reduxjs/toolkit";
 import dataLowonganKerja from '../data/dataLowonganKerja';
 
 interface dataLoker {
-    job: String,
-    desc: String,
-    loc: String
+    label: string,
+    title: string,
+    desc: string,
+    loc: string,
+    image: string,
 }
 
 interface LokerState {

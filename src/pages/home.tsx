@@ -2,7 +2,8 @@ import Navbar from "../components/navbar";
 import Carousel from "../components/carousel";
 import Search from "../components/search";
 import Footer from "../components/footer";
-import Content from "../components/content";
+import ContentTipsKarir from "../components/contents/contentTipsKarir";
+import ContentLoker from "../components/contents/contentLoker";
 
 const Home = () => {
     return(
@@ -10,7 +11,8 @@ const Home = () => {
            <Navbar />
            <Carousel />
            <Search />
-           <Content />
+           <ContentTipsKarir />
+           <ContentLoker />
            <Footer />
         </div>
     )

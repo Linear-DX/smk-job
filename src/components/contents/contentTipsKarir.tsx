@@ -8,30 +8,30 @@ import {
   Button,
 } from '@chakra-ui/react';
 import Slider from 'react-slick';
-import tipsKarir1 from '../assets/pictures/content/tipsKarir1.jpg'
-import tipsKarir2 from '../assets/pictures/content/tipsKarir2.jpg'
-import tipsKarir3 from '../assets/pictures/content/tipsKarir3.jpg'
-import tipsKarir4 from '../assets/pictures/content/tipsKarir4.jpg'
-import tipsKarir5 from '../assets/pictures/content/tipsKarir5.jpg'
-import tipsKarir6 from '../assets/pictures/content/tipsKarir6.jpg'
+import tipsKarir1 from '../../assets/pictures/content/tipsKarir1.jpg'
+import tipsKarir2 from '../../assets/pictures/content/tipsKarir2.jpg'
+import tipsKarir3 from '../../assets/pictures/content/tipsKarir3.jpg'
+import tipsKarir4 from '../../assets/pictures/content/tipsKarir4.jpg'
+import tipsKarir5 from '../../assets/pictures/content/tipsKarir5.jpg'
+import tipsKarir6 from '../../assets/pictures/content/tipsKarir6.jpg'
 
-function SampleNextArrow(props: any) {
+export function NextArrow(props: any) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", right: "5px" }}
+      style={{ ...style, display: "block", right: "10px" }}
       onClick={onClick}
     />
   );
 }
 
-function SamplePrevArrow(props: any) {
+export function PrevArrow(props: any) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", left: "5px", zIndex: 1 }}
+      style={{ ...style, display: "block", left: "10px", zIndex: 1 }}
       onClick={onClick} />
   );
 }
@@ -41,8 +41,8 @@ const settings = {
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 3,
-  prevArrow: <SamplePrevArrow />,
-  nextArrow: <SampleNextArrow />,
+  prevArrow: <PrevArrow />,
+  nextArrow: <NextArrow />,
 
   responsive: [
     {
@@ -72,8 +72,7 @@ const settings = {
   ]
 };
 
-
-export default function Content() {
+export default function ContentTipsKarir() {
 
   const cards = [
     {
