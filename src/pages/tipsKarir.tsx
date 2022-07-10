@@ -4,7 +4,7 @@ import Navbar from "../components/navbar";
 import { PostCard } from "../components/tipsSections/component/scroll-menu/cards";
 // import React from "react";
 // @ts-ignore
-import Intro from "../components/tipsSections/section/HeroLanding.tsx";
+import Intro from "../components/tipsSections/section/heroLanding.tsx";
 
 // @ts-ignore
 // import Arrow from "../components/tipsSections/section/ScrollMenu";

@@ -1,8 +1,6 @@
-import React from "react";
 import { Box, Icon, Flex, Heading, Image, VStack, Text } from "@chakra-ui/react";
 import { FiBookmark } from "react-icons/fi"
 import { IoMdBriefcase } from "react-icons/io"
-import { Perusahaan } from "../../pages";
 
 const Perusahaan1 = () => {
   return (

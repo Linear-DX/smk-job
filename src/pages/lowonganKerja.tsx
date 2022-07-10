@@ -1,16 +1,16 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import NavbarPerusahaan from "../components/NavbarPerusahaan";
-import ProductList from "../components/ProductList";
-import Result from "../components/Result";
+import SearchWrapper from "../components/search/searchWrapper";
+import ContentLoker from "../components/lowonganKerja/contentLoker";
+import ResultWrapper from "../components/result/resultWrapper";
 
 const LowonganKerja = () => {
     return(
         <div>
             <Navbar />
-            <NavbarPerusahaan />
-            <Result />
-            <ProductList />
+            <SearchWrapper />
+            <ResultWrapper />
+            <ContentLoker />
             <Footer />
         </div>
     )

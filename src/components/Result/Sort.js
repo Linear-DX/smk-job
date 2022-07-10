@@ -2,7 +2,7 @@ import { Select } from "@chakra-ui/select";
 
 const Sort = () => {
   return (
-    <Select placeholder="Sort by.." bg="white" w="25%">
+    <Select placeholder="Sort by.." color={'darkBlue.100'} w="25%">
       <option value="higher">Gaji Terbesar</option>
       <option value="higher">Fresh Graduates</option>
       <option value="lower">Lokasi Terdekat</option>

@@ -120,8 +120,8 @@ export default function ContentTipsKarir() {
   ];
 
   return (
-    <div>
-      <Heading fontSize={'3xl'} mt={4} ml={12}> Tips Karir </Heading>
+    <div className="tipsKarirBody">
+      <Heading fontSize={'3xl'} mt={4} ml={12} color={'white'}> Tips Karir </Heading>
       <Slider {...settings}>
         {cards.map((card, index) => {
           return (
@@ -174,7 +174,7 @@ export default function ContentTipsKarir() {
                   <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
                     <Button
                       as="a"
-                      href={'/lowongan-kerja'}>
+                      href={'/tips-karir'}>
                       Baca Lebih Lanjut
                     </Button>
                   </Stack>

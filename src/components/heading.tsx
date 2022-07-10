@@ -34,6 +34,7 @@ export default function Search() {
                 align={'center'}
                 flexDirection={'column'}
                 fontWeight={600}
+                color={'white'}
                 mt={10}
                 mb={4}>
                 <Text fontSize={'4xl'} letterSpacing={'5px'}>

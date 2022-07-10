@@ -54,7 +54,7 @@ export default function ContentLoker() {
 
     return (
         <div>
-            <Heading fontSize={'3xl'} mt={4} ml={12}> Lowongan Kerja </Heading>
+            <Heading fontSize={'3xl'} mt={4} ml={12} color={'white'}> Lowongan Kerja </Heading>
             <Slider {...settings}>
                 {
                     jobs?.map((job, index) => {
@@ -81,7 +81,9 @@ export default function ContentLoker() {
                                             mx={-6}
                                             mb={6}
                                             pos={'relative'}>
-                                            <Image src={job.image} height={'full'} w={'full'} />
+                                                <Center>
+                                            <Image src={job.image} height={'full'} w={'200px'} margin={'auto'} mt={'1.5'} />
+                                            </Center>
                                         </Box>
 
                                         <Stack>

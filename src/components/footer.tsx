@@ -6,7 +6,6 @@ import {
     Stack,
     Text,
     Flex,
-    useColorModeValue,
     useBreakpointValue,
 } from '@chakra-ui/react';
 import { ReactNode } from 'react';
@@ -22,8 +21,8 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 export default function Footer() {
     return (
         <Box
-            bg={useColorModeValue('gray.50', 'gray.900')}
-            color={useColorModeValue('gray.700', 'gray.200')}>
+            bg={'gray.900'}
+            color={'gray.200'}>
             <Container as={Stack} maxW={'6xl'} py={10}>
                 <SimpleGrid columns={{ base: 1, sm: 2, md: 3 }} spacing={10}>
                     <Stack align={'center'}>
@@ -57,21 +56,21 @@ export default function Footer() {
                     _before={{
                         content: '""',
                         borderBottom: '1px solid',
-                        borderColor: useColorModeValue('gray.200', 'gray.700'),
+                        borderColor: 'gray.700',
                         flexGrow: 1,
                         mr: 8,
                     }}
                     _after={{
                         content: '""',
                         borderBottom: '1px solid',
-                        borderColor: useColorModeValue('gray.200', 'gray.700'),
+                        borderColor: 'gray.700',
                         flexGrow: 1,
                         ml: 8,
                     }}>
                     <Text
                         textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
                         fontFamily={'heading'}
-                        color={useColorModeValue('gray.800', 'white')}
+                        color={'white'}
                         fontWeight={'bold'}
                         fontSize={24}>
                         <a href="/">SMKJOB</a>

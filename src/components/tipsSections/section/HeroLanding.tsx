@@ -1,5 +1,4 @@
 import { Box, Heading, Text, Flex } from "@chakra-ui/react";
-import React from "react";
 // @ts-ignore
 import CardsLink from "./cardslink.tsx";
 

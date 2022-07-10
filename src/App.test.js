@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { ChakraProvider } from '@chakra-ui/react';
 import Home from './pages/home.tsx';
-import Search from './components/search.tsx';
+import Search from './components/heading.tsx';
 
 test('Testing text SMKJOB', () => {
   render(

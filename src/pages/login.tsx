@@ -1,4 +1,3 @@
-import React from 'react'
 import { Box, Heading, VStack, Text, HStack } from '@chakra-ui/layout'
 import { Checkbox, FormControl, FormLabel, Input, Button} from '@chakra-ui/react'
 import {Link} from 'react-router-dom';
@@ -6,7 +5,6 @@ import {Link} from 'react-router-dom';
 
 const Login = () => {
     return (
-        
         <Box 
         w={['full', 'md']}
         p={[8,10]}
@@ -17,7 +15,7 @@ const Login = () => {
         borderRadius={10}
         >
     
-        <VStack spacing={4} align='flex-start' w='full'>
+        <VStack spacing={4} align='flex-start' w='full' color={'white'}>
             <VStack spacing={1} align={['flex-start', 'center']} w='full'>
                 <Heading>Login</Heading>
                 <Text>Enter your e-mail and password to login</Text>
@@ -41,13 +39,8 @@ const Login = () => {
             <Button rounded='md' colorScheme='blue' w={['full', 'auto']} alignSelf='end'>
                 Login
             </Button>
-            <Link to="/Daftar" >Register here..</Link>
-            
-            
-            
-            
+            <Link to="/daftar" >Register here..</Link>      
         </VStack>
-
         </Box>
     )
     

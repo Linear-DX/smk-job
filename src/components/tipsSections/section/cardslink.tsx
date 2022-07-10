@@ -1,4 +1,3 @@
-import React from "react";
 import { LinkBox, LinkOverlay, Box, Text, Heading, Img } from "@chakra-ui/react";
 
 function CardsLink() {

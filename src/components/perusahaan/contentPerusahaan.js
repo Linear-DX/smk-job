@@ -1,9 +1,8 @@
 import { Container, SimpleGrid } from "@chakra-ui/react";
-import React from "react";
-import Perusahaan1 from "./ListPerusahaan/Perusahaan1";
-import Perusahaan2 from "./ListPerusahaan/Perusahaan2";
+import Perusahaan1 from "./perusahaan1";
+import Perusahaan2 from "./perusahaan2";
 
-const ListPerusahaan= () => {
+const ContentPerusahaan= () => {
   return (
     <Container maxW="container.xl" mx="auto" my="4" mb="20">
       <SimpleGrid columns={4} spacing={4}>
@@ -19,4 +18,4 @@ const ListPerusahaan= () => {
   );
 };
 
-export default ListPerusahaan;
+export default ContentPerusahaan;

@@ -1,8 +1,7 @@
-import React from "react";
 import { Box, Icon, Flex, Heading, Image, VStack, Text } from "@chakra-ui/react";
 import { FiBookmark } from "react-icons/fi"
 
-const Product = () => {
+const Loker1 = () => {
   return (
     <Flex
       h="full"
@@ -40,4 +39,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Loker1;

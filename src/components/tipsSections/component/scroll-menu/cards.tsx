@@ -1,11 +1,10 @@
-import { Heading, Input, SimpleGrid } from "@chakra-ui/react";
-import React from "react";
-import { MethodCard } from "./MethodCard";
+import { Heading, SimpleGrid } from "@chakra-ui/react";
+import { MethodCard } from "./methodCard";
 
 export const PostCard = () => {
   return (
     <section>
-      <Heading as="h2" size="lg" mx="2em" mt="2em">
+      <Heading as="h2" size="lg" mx="2em" mt="2em" color={'white'}>
         Cari Tips Seputar SMK : <br />
       </Heading>
       <SimpleGrid columns={[2, null, 3]} mx="2em" justifyItems="center" mb="2em">

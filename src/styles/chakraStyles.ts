@@ -41,6 +41,18 @@ export const InputStyles: ComponentStyleConfig = {
                     bg: "darkBlue.100"
                 }
             },
+        },
+        filled: {
+          field: {
+            bg: "RGBA(255,255,255,0.08)",
+            color: "gray.100",
+            _placeholder: {
+                color: "white"
+            },
+            _hover: {
+                bg: "RGBA(255,255,255,0.18)"
+            }
+          }
         }
     }
 };

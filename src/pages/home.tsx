@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Carousel from "../components/carousel";
-import Search from "../components/search";
+import Heading from "../components/heading";
 import Footer from "../components/footer";
 import ContentTipsKarir from "../components/contents/contentTipsKarir";
 import ContentLoker from "../components/contents/contentLoker";
@@ -10,7 +10,7 @@ const Home = () => {
         <div>
            <Navbar />
            <Carousel />
-           <Search />
+           <Heading />
            <ContentTipsKarir />
            <ContentLoker />
            <Footer />
