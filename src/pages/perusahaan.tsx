@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import ContentPerusahaan from "../components/perusahaan/contentPerusahaan";
-import ResultWrapper from "../components/result/resultWrapper";
+import ResultWrap from "../components/result/resultWrap";
 import SearchWrapper from "../components/search/searchWrapper";
 
 const Perusahaan = () => {
@@ -9,7 +9,7 @@ const Perusahaan = () => {
         <div>
             <Navbar />
             <SearchWrapper />
-            <ResultWrapper />
+            <ResultWrap />
             <ContentPerusahaan />
             <Footer />
         </div>

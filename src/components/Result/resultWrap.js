@@ -2,7 +2,7 @@ import { Container, Flex } from "@chakra-ui/layout";
 import Count from "./count";
 import Sort from "./sort";
 
-const ResultWrapper = () => {
+const ResultWrap = () => {
   return (
     <Container maxW="container.xl" mx="auto" my="8">
       <Flex justify="space-between" align="center">
@@ -15,4 +15,4 @@ const ResultWrapper = () => {
   );
 };
 
-export default ResultWrapper;
+export default ResultWrap;

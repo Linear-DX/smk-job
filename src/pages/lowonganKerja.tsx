@@ -2,14 +2,14 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import SearchWrapper from "../components/search/searchWrapper";
 import ContentLoker from "../components/lowonganKerja/contentLoker";
-import ResultWrapper from "../components/result/resultWrapper";
+import ResultWrap from "../components/result/resultWrap";
 
 const LowonganKerja = () => {
     return(
         <div>
             <Navbar />
             <SearchWrapper />
-            <ResultWrapper />
+            <ResultWrap />
             <ContentLoker />
             <Footer />
         </div>
